@@ -1,19 +1,17 @@
 import 'package:flutter/material.dart';
 
 class UserModel {
-  int id;
+  String id;
   String name;
   String email;
-  String password;
 
-  UserModel({required this.id,required this.name,required this.email,required this.password});
+  UserModel({required this.id,required this.name,required this.email,r});
 
   Map<String,dynamic>toJson(){
     return {
       'id':id,
       'name':name,
       'email':email,
-      'password':password
     };
   }
 
@@ -22,6 +20,6 @@ class UserModel {
       id: json['id'], 
       name: json['name'], 
       email: json['email'], 
-      password: json['password']);
+      );
   }
 }
