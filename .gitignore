@@ -51,7 +51,8 @@ app.*.map.json
 .firebaserc
 
 # Firebase Hosting
-/firebase.json
+firebase.json
+.firebaserc
 *.cache
 hosting/.cache
 
@@ -73,3 +74,15 @@ yarn-error.log*
 
 # Environment files (local configs)
 /.env.*
+
+
+# Android (google-services.json)
+android/app/google-services.json
+
+# iOS (GoogleService-Info.plist)
+ios/Runner/GoogleService-Info.plist
+
+**/google-services.json
+**/GoogleService-info.plist
+**/firebase_options.dart
+**/firebase.json
