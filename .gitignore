@@ -33,6 +33,7 @@ migrate_working_dir/
 
 #firebase
 lib/firebase_options.dart
+firebase.json
 # Symbolication related
 app.*.symbols
 
@@ -51,7 +52,6 @@ app.*.map.json
 .firebaserc
 
 # Firebase Hosting
-firebase.json
 .firebaserc
 *.cache
 hosting/.cache
@@ -81,8 +81,3 @@ android/app/google-services.json
 
 # iOS (GoogleService-Info.plist)
 ios/Runner/GoogleService-Info.plist
-
-**/google-services.json
-**/GoogleService-info.plist
-**/firebase_options.dart
-**/firebase.json
